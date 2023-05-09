@@ -1,0 +1,760 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FAVICON -->
+  <!-- <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon"> -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/logo/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/logo/favicon-16x16.png">
+  <link rel="manifest" href="assets/logo/site.webmanifest">
+
+  <!-- font -->
+
+
+  <title>SISFO C-21</title>
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-sm fixed-top bg-dark shadow-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid mx-3">
+      <a class="navbar-brand gap-3" href="#">
+        <img src="assets/logo/favicon-32x32.png" width="32" height="32" alt="" style="margin-right: 8px;">
+        SISTEM INFORMASI C 21</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#blog">Blog</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HomePage Carousel -->
+  <!-- Caroulse -->
+  <div id="carouselExampleDark" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="assets/DSC07233.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Bukber Kelas C Ramadhan 1444H</h5>
+          <p>Jalin Siltaurrahiim di bulan yang suci.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="assets/img-1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Healing Nge-Villa Kita</h5>
+          <p>Sekali-kali Nge-Villa yee anak cowo.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="assets/img-4.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Inagurasi</h5>
+          <p>Hari-hari peng-akraban.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img-3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>LKMM</h5>
+          <p>Kepemimpinan Setyo Terlihat Pada Hari Itu.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img-5.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>LKMM</h5>
+          <p>Pose Makan Ceritanya.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img-6.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Senam Dulu Cees!!</h5>
+          <p>Disini Dia(Roy) Sangat Menawan.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Akhir Carousel -->
+
+  <!-- container jumlah anggota -->
+  <div class="py-4 bg-dark text-white text-center">
+    <!-- row-1 judul -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <h1 class="headline-font" style="font-size: 80px;">Meet Our Team</h1>
+      </div>
+    </div>
+
+    <!-- row-2 Baris-1-Photo -->
+    <div class="row  m-2">
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/shafly.jpg" class="card-img-top" alt="Shafly">
+          <div class="card-body">
+            <h5 class="card-title">Shafly Firmansyah</h5>
+            <p class="card-text">Panggil Aja Shafly</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Ketua Kelas C</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/shaflyfrms_/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/lia.jpg" class="card-img-top" alt="Lia">
+          <div class="card-body">
+            <h5 class="card-title">Berliana</h5>
+            <p class="card-text">Panggil Aja Lia.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Wakil Ketua Kelas</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/brliaa.na/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/ude.jpg" class="card-img-top" alt="ude">
+          <div class="card-body">
+            <h5 class="card-title">Annisa Utami Dewi</h5>
+            <p class="card-text">Panggil Aja UDE.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Sekretaris Kelas</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/annisautmiii/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/shifa.jpg" class="card-img-top" alt="ude">
+          <div class="card-body">
+            <h5 class="card-title">Ashifa Halimatus S</h5>
+            <p class="card-text">Panggil Aja Shifaa.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Bendahara Kelas</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/shifahls____/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <!-- row 3 Baris-2-Photo -->
+    <div class="row  m-2">
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/fikri.jpg" class="card-img-top" alt="Shafly">
+          <div class="card-body">
+            <h5 class="card-title">Ananda Fikri Amrizal</h5>
+            <p class="card-text">Panggil Aja Bokap</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Bapak Apri</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/anandafikrii.a/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/hekal.jpg" class="card-img-top" alt="Lia">
+          <div class="card-body">
+            <h5 class="card-title">Haykal Zufar</h5>
+            <p class="card-text">Panggil Aja Hekal.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Bapak Azhari</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/hzufarr/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/iis.jpg" class="card-img-top" alt="ude">
+          <div class="card-body">
+            <h5 class="card-title">Iis Permatasari</h5>
+            <p class="card-text">Panggil Aja Iis.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Ibu Nina</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/_iisps/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/mufti.jpg" class="card-img-top" alt="mufti">
+          <div class="card-body">
+            <h5 class="card-title">Mufti Arkhan Harsono</h5>
+            <p class="card-text">Panggil Aja Adudu Kata Bocah Mah.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Bapak Nono</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/muftiarkhan.h/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Row 4 Baris-3-Photo -->
+    <div class="row  m-2">
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/nurul.jpg" class="card-img-top" alt="nurul">
+          <div class="card-body">
+            <h5 class="card-title">Nurul Atizah</h5>
+            <p class="card-text">Panggil Aja Nurul</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Bu Siska</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/nurulatizah_/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/furqon.jpg" class="card-img-top" alt="furqon">
+          <div class="card-body">
+            <h5 class="card-title">Muhammad Furqon H</h5>
+            <p class="card-text">Panggil Aja Furqon.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Bapak Bagja</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/brliaa.na/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/isny.jpg" class="card-img-top" alt="isny">
+          <div class="card-body">
+            <h5 class="card-title">Siti Fatimah Isny N A</h5>
+            <p class="card-text">Panggil Aja Isny.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>PJ matkul Bu Yuyun</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/iz.sny/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/pilip.jpg" class="card-img-top" alt="philips">
+          <div class="card-body">
+            <h5 class="card-title">Philips Lyionick Corint</h5>
+            <p class="card-text">Panggil nama lgsg jan pake Bang!!</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Divisi Keamanan Kelas</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/philipslyionick/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Row 5 Baris-4-Photo -->
+    <div class="row  m-2">
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/aul.jpg" class="card-img-top" alt="aul">
+          <div class="card-body">
+            <h5 class="card-title">Aulia Septiana</h5>
+            <p class="card-text">Panggil Aja Aul</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Jajaran BPH Masa Merintis</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/auliaasptnaa/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/rahma.jpg" class="card-img-top" alt="Rahma">
+          <div class="card-body">
+            <h5 class="card-title">Rahma Herawati</h5>
+            <p class="card-text">Panggil Aja Rahmi.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Jajaran BPH Masa Merintis</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/rahma.her/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/zaima.jpg" class="card-img-top" alt="Zaima">
+          <div class="card-body">
+            <h5 class="card-title">Zaima Syarifa Asshafaa</h5>
+            <p class="card-text">Panggil Aja ZAI.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Jajaran BPH Masa Merintis</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/zaima.syarifa/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/nadia.jpg" class="card-img-top" alt="nadia">
+          <div class="card-body">
+            <h5 class="card-title">Nadia Nurfadhilah Syarif</h5>
+            <p class="card-text">Panggil Aja NANAD.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Call Center Tugas Kuliah</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/nadiasyarif2/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Row 6 Baris-5-Photo -->
+    <div class="row  m-2">
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/opal.jpg" class="card-img-top" alt="nauval">
+          <div class="card-body">
+            <h5 class="card-title">Nauval Dwi Rifalfakhri</h5>
+            <p class="card-text">Panggil Aja OPALL</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Divisi Perpotoan</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/ovaldwi/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/dika.jpg" class="card-img-top" alt="Dika">
+          <div class="card-body">
+            <h5 class="card-title">Pradika Rizky P</h5>
+            <p class="card-text">Panggil Aja Venom.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Divisi Komedi</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/pradikarzky/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/fina.jpg" class="card-img-top" alt="pinong">
+          <div class="card-body">
+            <h5 class="card-title">Rifina Dwi Pebrianti</h5>
+            <p class="card-text">Panggil Aja Pinong.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Anggota Kelas Bae-Bae aja</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/vianaarf/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/eki.jpg" class="card-img-top" alt="eki">
+          <div class="card-body">
+            <h5 class="card-title">Setyo Dwiki Prastomo</h5>
+            <p class="card-text">Panggil Aja EKIH.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>KAHIM Bayangan</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/ekiiprastomo/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Row 7 Baris-6-Photo -->
+    <div class="row  m-2">
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/fizi.jpg" class="card-img-top" alt="fizi">
+          <div class="card-body">
+            <h5 class="card-title">M Al Farizi</h5>
+            <p class="card-text">Panggil Aja BB si BabyBoy</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Kadiv Komedi</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/whosfarizi/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/fitri.jpg" class="card-img-top" alt="fitri">
+          <div class="card-body">
+            <h5 class="card-title">Fitria Aryani</h5>
+            <p class="card-text">Panggil Aja Pitri.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Anggota Kelas Bae-Bae aja</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/fitriaaryani_/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/giyan.jpg" class="card-img-top" alt="giyan">
+          <div class="card-body">
+            <h5 class="card-title">Giyan Heriandra</h5>
+            <p class="card-text">Panggil Aja Giyan.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Kadiv Perpotoan</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/giyanhs/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/alutfi.jpg" class="card-img-top" alt="alutfi">
+          <div class="card-body">
+            <h5 class="card-title">Aluthfi Fadilah</h5>
+            <p class="card-text">Panggil Aja Bang Dodo.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Duta Sunda</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/aluthfif_/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Row 8 Baris-7-Photo -->
+    <div class="row  m-2">
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/ayu.jpg" class="card-img-top" alt="rahayu">
+          <div class="card-body">
+            <h5 class="card-title">Rahayu Widhiyanti</h5>
+            <p class="card-text">Panggil Aja Ayu</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Duta SkinCare</strong></li>
+          </ul>
+          <div class="card-body text-center">
+            <a href="https://www.instagram.com/raraadhyn/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/roy.jpg" class="card-img-top" alt="Roy">
+          <div class="card-body">
+            <h5 class="card-title">Roy Bagus Sanjaya</h5>
+            <p class="card-text">Panggil Aja ROY.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Kadiv Keamanan Kelas</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/brliaa.na/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/iman.jpg" class="card-img-top" alt="iman">
+          <div class="card-body">
+            <h5 class="card-title">Immanuel Santosa</h5>
+            <p class="card-text">Panggil Aja Iman.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Kadiv Peribadatan</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/elnuel_/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 pt-2">
+        <div class="card text-white shadow-lg" style="width: 18rem;">
+          <img src="assets/galuh.jpg" class="card-img-top" alt="galuh">
+          <div class="card-body">
+            <h5 class="card-title">Galuh Rangga</h5>
+            <p class="card-text">Panggil Aja Madol.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-white"><strong>Divisi Komedi</strong></li>
+          </ul>
+          <div class="card-body">
+            <a href="https://www.instagram.com/galuhrg_/" target="_blank" class="card-link">Instagram</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+  <!-- Akhir Meet Our Team -->
+
+  <!-- BLOG -->
+  <div class="container-fluid text-center text-white blog bg-body py-6" data-bs-theme="dark" id="blog">
+    <h1 class="headline-font" style="font-size: 80px;">Blog</h1>
+
+    <div class="card-group pt-4">
+      <div class="card">
+        <img src="assets/blog-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Sering dipanggil Habib, apakah benar cucu nabi?</h5>
+          <p class="card-text">Seringkali kita memanggil teman kita(furqon) dengan sebutan Habib. tapi banyak
+            yang bertanya-tanya apakah benar teman kita menyambung....<a href="#">baca selengkapnya</a>
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">created by : furqon</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/blog-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title pb-2">Momen Horor ketika nginep di Villa</h5>
+          <p class="card-text">Baru-baru kemarin anak cowo kelas C pergi milla(gak tau dimana mimin gk ikut soalnya).
+            Tapi ada cerita horr kala anak cowo menginap disuatu villa(daerahnya disamarkan). Ketika itu anak cowo....
+            <a href="#">baca selengkapnya</a>
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">created by : furqon</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/blog-3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gk Ikut Bukber Gara-Gara ada masalah personal sama teman sekelas?</h5>
+          <p class="card-text">Bulan Ramadhan, tak pernah lepas dari acara Buka Bersama(Bukber). BUKBER bersama dengan
+            teman sekelas, seolah sudah menjadi.... <a href="#">baca selengkapnya</a></p>
+        </div>
+        <div class="card-footer">
+          <small class="text-body-secondary">created by : furqon</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 flex-md-row pt-3">
+      <button type="button" class="btn btn-primary">Lihat Blog Lengkap</button>
+    </div>
+  </div>
+  <!-- Akhir Blog -->
+
+  <!-- About -->
+  <div class="container-fluid py-6 text-center text-white bg-body" data-bs-theme="dark" id="about">
+    <h1 class="headline-font" style="font-size: 80px;">About</h1>
+    <div class="row pt-4">
+      <div class="col-6">
+        <p class="about-text">
+          Sistem Informasi C 21 adalah kumpulan mahasiswa Universitas Singaperbangsa Karawang Fakultas Ilmu Komputer
+          Program Studi Sistem Informasi Kelas C angkatan 2021. Awal mulanya, anggota kelas C berjumlah 30 mahaiswa.
+          Pada masa-masa Orientasi Mahasiswa atau ospek, terdapat 1 anggota kelas C yang berhenti, sehingga anggota
+          kelas C menjadi 29 mahasiswa. Lalu bertambah lagi 1 anggota kelas C yang berpindah kampus pada awal
+          semester 2. Sehingga tersisalah kami kelas C dengan jumlah anggota 28 mahasiswa.
+        </p>
+        <p class="about-text">
+          SISFO C-21 berjuang bersama untuk masa depan yang cerah, lahir untuk seribu impian & harapan, berlari maupun
+          berjalan berartikan pergerakan dari sebuah perjuangan, apa yang kami kerjakan dengan kaki tangan kami bukan
+          lain dari sebuah proses menuju masa depan yang lebih baik lagi.
+        </p>
+      </div>
+      <div class="col-6">
+        <img src="assets/logo/android-chrome-512x512.png" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- Akhir About -->
+
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-6 text-white">
+          <h1 class="headline-font">
+            Contact Us
+          </h1>
+          <br>
+          <p class="contact-text">
+            Alamat Email Kami : <br>
+            <a href="mailto:sisfokelasc@gmail.com">sisfokelasc@gmail.com</a><br>
+            Phone : 081234567891
+
+          </p>
+          <a href="http://https://www.instagram.com/sisteminformasi_c21/" target="_blank" rel="noopener noreferrer">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-instagram"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg>
+          </a>
+        </div>
+        <div class="col-6">
+          <form class="p-2" data-bs-theme="dark">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-white">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label text-white">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label text-white" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row pt-5">
+        <div class="col">
+          <p class="text-white paragraf text-center pt-5">Created By : Muhammad Furqon Huwaidy | 2110631250082</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer -->
+
+
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+    integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+    integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
